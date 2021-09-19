@@ -30,6 +30,6 @@ and
 =COUNTIFS(Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999")
 ```
 ### Problems With the Data Set
-![This is an image](Outcomes_by_Category.png)
+![This is an image](Resources/Outcomes_by_Category.png)
 This chart counts the total numer of campaigns by subcategory. Now, because of the nature of our customer's interests (i.e. plays) this set contains a lot mory data points from `play` categories than any other type of campaign. This would greatly influence the quality of the data because we are primarily grabbing from a very niche market. Kickstarter is host to many campaigns, and many more that are not plays. If we were to look at a set of all campaigns I imagine that, in relation to all other campaigns, plays may not fare as well when getting funding.
 I also attempted to parse the data while filtering for the `Staff Pick` Boolean. Ultimately I observed that, while getting a coveted staff pics did boost the likelihood of success, it was not a significant enough variance to report on, and thus likely not worth pursuing actively for Louise.
